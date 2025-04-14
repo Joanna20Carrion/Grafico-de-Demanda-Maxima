@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir CC2 y Generar Gráfico</title>
+</head>
+<body>
+    <h1>Carga tu archivo y selecciona un rango de fechas</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Archivo Excel:</label>
+        <input type="file" name="file" id="file" required><br><br>
+        <label for="start_date">Fecha Inicio:</label>
+        <input type="date" name="start_date" id="start_date" required><br><br>
+        <label for="end_date">Fecha Fin:</label>
+        <input type="date" name="end_date" id="end_date" required><br><br>
+        <button type="submit">Generar Gráfico</button>
+    </form>
+</body>
+</html>
