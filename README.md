@@ -14,9 +14,6 @@
 
 Esta aplicación web permite cargar un archivo Excel con datos energéticos, seleccionar un rango de fechas y generar un **gráfico de distribución de despacho Diésel** en las horas de **máxima demanda**. Fue desarrollada con **Flask**, usando `pandas` para el procesamiento y `matplotlib` para la visualización.
 
-🔗 **Prueba la app aquí:**  
-👉 [https://grafico-de-demanda-maxima.onrender.com](https://grafico-de-demanda-maxima.onrender.com)
-
 ---
 
 ## 🎯 Objetivos
@@ -40,7 +37,6 @@ Esta aplicación web permite cargar un archivo Excel con datos energéticos, sel
 - `pandas`
 - `matplotlib`
 - `openpyxl`
-- `gunicorn` *(para despliegue en Render)*
 
 ---
 
@@ -62,28 +58,5 @@ Esta aplicación web permite cargar un archivo Excel con datos energéticos, sel
 - Sombreado por horas laborales
 - Líneas guías de referencia horaria y mensual
 
----
 
-## ▶️ Instrucciones de Uso
-
-### Localmente
-
-1. Clona el repositorio:
-```bash
-git clone https://github.com/Joanna20Carrion/Grafico-de-Demanda-Maxima.git
-cd Grafico-de-Demanda-Maxima
-```
-
-2. Instala las dependencias:
-```bash
-git clone https://github.com/Joanna20Carrion/Grafico-de-Demanda-Maxima.git
-cd Grafico-de-Demanda-Maxima
-```
-
-3. Ejecuta la app:
-```bash
-python app.py
-```
-
-4. Abre tu navegador en: http://localhost:5000
 
