@@ -66,13 +66,7 @@ Este proyecto muestra un **gráfico de demanda máxima** a partir de un archivo 
 🎓 Bachiller en Ingeniería Electrónica  
 🚀 Apasionada por la ciencia de datos y sistemas inteligentes  
 📧 joannacarrion14@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
-
----
-
-## 🤝 Créditos
-
-Gracias a Railway por su plataforma de hosting y a todas las herramientas de código abierto usadas en este proyecto.
+🔗 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Joanna%20Carrión%20Pérez-blue?style=flat&logo=linkedin) [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
 
 ---
 
