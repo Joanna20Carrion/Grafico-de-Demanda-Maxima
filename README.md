@@ -1,62 +1,82 @@
-# 📊 Gráfico de Demanda Máxima con Flask
+# 📈 Gráfico de Demanda Máxima con Flask + Railway
 
-![Python](https://img.shields.io/badge/Lenguaje-Python-blue?style=flat&logo=python)
-![HTML](https://img.shields.io/badge/Frontend-HTML5-orange?style=flat&logo=html5)
-![Flask](https://img.shields.io/badge/Framework-Flask-black?style=flat&logo=flask)
-![Gráfico](https://img.shields.io/badge/Visualización-Matplotlib-lightblue?style=flat&logo=plotly)
-![Formato](https://img.shields.io/badge/Formato-Excel(.xlsx)-green?style=flat&logo=microsoft-excel)
-![Deploy](https://img.shields.io/badge/Despliegue-Render-purple?style=flat)
-![Licencia](https://img.shields.io/badge/Licencia-Personal-red)
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
+![HTML](https://img.shields.io/badge/HTML5-Frontend-orange?style=flat&logo=html5)
+![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey?style=flat)
+![Hosting](https://img.shields.io/badge/Hosted_on-Railway-purple?style=flat&logo=railway)
+
+---
+
+## 🔗 Enlace en producción
+
+👉 [Accede a la aplicación](https://grafico-de-demanda-maxima-production.up.railway.app/)
 
 ---
 
 ## 📌 Descripción
 
-Esta aplicación web permite cargar un archivo Excel con datos energéticos, seleccionar un rango de fechas y generar un **gráfico de distribución de despacho Diésel** en las horas de **máxima demanda**. Fue desarrollada con **Flask**, usando `pandas` para el procesamiento y `matplotlib` para la visualización.
-
----
-
-## 🎯 Objetivos
-
-- Leer archivos Excel con datos energéticos.
-- Filtrar por rango de fechas personalizado.
-- Identificar el tipo de combustible (Diésel o Residual).
-- Graficar las horas de máxima demanda diaria con diferenciación visual.
-- Permitir descarga directa del gráfico generado.
-
----
-
-## 💻 Requisitos
-
-- Python 3.9+
-- Navegador web moderno
-
-### 📦 Librerías usadas
-
-- `Flask`
-- `pandas`
-- `matplotlib`
-- `openpyxl`
+Este proyecto muestra un **gráfico de demanda máxima** a partir de un archivo Excel cargado por el usuario. Se implementó usando **Flask** como backend, lectura de archivos con **pandas** y visualización de resultados en un entorno web sencillo.
 
 ---
 
 ## 🧠 Características
 
-### Interfaz Web
-- Carga de archivos Excel `.xlsx`
-- Selección de fecha de inicio y fin
-- Descarga automática del gráfico generado
+- 📂 Carga de archivos `.xlsx`
+- 📊 Gráfico automático de demanda máxima
+- 📆 Selección de rango de fechas
+- 💡 Interfaz básica con HTML + Bootstrap
 
-### Procesamiento de Datos
-- Conversión de fechas y horas
-- Filtrado por rango
-- Clasificación de tipo de combustible
-- Agrupación por día con máxima demanda
+---
 
-### Visualización
-- Gráfico de dispersión con codificación por color
-- Sombreado por horas laborales
-- Líneas guías de referencia horaria y mensual
+## 🕒 Horario programado
+
+- 🔄 La aplicación se **activa automáticamente todos los días a las 8:00 a. m. (UTC-5)**
+- 😴 Se **duerme sola por inactividad** gracias al modo *Serverless*
+- ☁️ Hosting 100% gratuito en **[Railway](https://railway.app)**
+
+---
+
+## ▶️ Cómo usar
+
+1. Ingresa al [enlace de la app](https://grafico-de-demanda-maxima-production.up.railway.app/)
+2. Carga un archivo Excel válido con columnas de tiempo y valores.
+3. Selecciona el rango de fechas.
+4. ¡Visualiza tu gráfico!
+
+---
+
+## 🛠️ Tecnologías usadas
+
+| Tecnología     | Badge |
+|----------------|-------|
+| Python 3.10+   | ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python) |
+| Flask          | ![Flask](https://img.shields.io/badge/Flask-Web_Framework-black?style=flat&logo=flask) |
+| Pandas         | ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=flat&logo=pandas&logoColor=white) |
+| OpenPyXL       | ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel_Reader-green?style=flat) |
+| Matplotlib     | ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=flat) |
+| HTML5 + Bootstrap | ![HTML5](https://img.shields.io/badge/HTML5-Frontend-E34F26?style=flat&logo=html5&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-Styling-7952B3?style=flat&logo=bootstrap) |
+| Railway (deploy) | ![Railway](https://img.shields.io/badge/Hosted_on-Railway-0B0D0E?style=flat&logo=railway) |
 
 
+---
 
+## 👤 Autora
+
+**Joanna Alexandra Carrión Pérez**  
+🎓 Bachiller en Ingeniería Electrónica  
+🚀 Apasionada por la ciencia de datos y sistemas inteligentes  
+📧 joannacarrion14@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
+
+---
+
+## 🤝 Créditos
+
+Gracias a Railway por su plataforma de hosting y a todas las herramientas de código abierto usadas en este proyecto.
+
+---
+
+## 🧩 Contribuciones
+
+¿Ideas o mejoras?  
+Haz un **fork**, mejora lo que gustes y envía un **pull request**. ¡Las contribuciones son bienvenidas! 
