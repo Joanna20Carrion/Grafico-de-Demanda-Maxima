@@ -37,7 +37,7 @@ def upload():
     max_demand_per_day["Hora_num"] = max_demand_per_day["Hora"].apply(lambda x: x.hour * 60 + x.minute)
 
     # Crear el gráfico
-    plt.figure(figsize=(30, 10))
+    plt.figure(figsize=(19, 10))
     plt.axhspan(10 * 60, 16 * 60, color="yellow", alpha=0.3, zorder=0)  # Sombreado amarillo
 
     # Agregar puntos (scatter plot)
