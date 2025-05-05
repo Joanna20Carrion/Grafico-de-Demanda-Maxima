@@ -59,7 +59,7 @@ def upload():
 
     # Configuración del eje X
     fechas_disponibles = pd.date_range(start_date, end_date, freq="5D").strftime("%Y-%m-%d")
-    plt.xticks(fechas_disponibles, rotation=60, fontsize=5)
+    plt.xticks(fechas_disponibles, rotation=60, fontsize=2)
 
     # Configuración del eje Y con etiquetas de tiempo legibles
     horas_disponibles = pd.date_range("00:00", "23:30", freq="30min").time
