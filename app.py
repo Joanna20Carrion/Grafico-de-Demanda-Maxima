@@ -37,7 +37,7 @@ def upload():
     max_demand_per_day["Hora_num"] = max_demand_per_day["Hora"].apply(lambda x: x.hour * 60 + x.minute)
 
     # Crear el gráfico
-    plt.figure(figsize=(40, 10))
+    plt.figure(figsize=(30, 10))
     plt.axhspan(10 * 60, 16 * 60, color="yellow", alpha=0.3, zorder=0)  # Sombreado amarillo
 
     # Agregar puntos (scatter plot)
@@ -59,7 +59,7 @@ def upload():
 
     # Configuración del eje X
     fechas_disponibles = pd.date_range(start_date, end_date, freq="5D").strftime("%Y-%m-%d")
-    plt.xticks(fechas_disponibles, rotation=60, fontsize=2)
+    plt.xticks(fechas_disponibles, rotation=60, fontsize=4)
 
     # Configuración del eje Y con etiquetas de tiempo legibles
     horas_disponibles = pd.date_range("00:00", "23:30", freq="30min").time
